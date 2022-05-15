@@ -1,28 +1,62 @@
 body{
+    color: aliceblue;
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(https://iaeloko.com/gallery_gen/f95b1020460c2c7dafb9e111376757ad.jpg);
+     ;
+     
 }
 
-.api{
-    position:absolute;
+.ino{
     width: 90%;
     max-width: 1200px;
-    left: 1200px;
-    top: 0px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+.pezb{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.api{
+    position:absolute;
+    width: 80%;
+    max-width: 1200px;
+    left: 50%;
+    top: 50px;
    color: darkorange;
+   text-align: center;
+   font-size:large;
+   
+
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
 }
 
 
 h1{
-    color: darkblue;
+    color: rgb(255, 255, 255);
     font-size: 70px;
     font-style: unset;
     font-weight: bold;
 }
 .logo{
-    color: blue;
-    width: 90%;
-    max-width: 1200px;
+    color: rgb(76, 76, 246);
+    text-align: center;
+    
 }
 .quienes{
     width: 90%;
@@ -53,6 +87,7 @@ h1{
     max-width: 1200px;
     overflow: hidden;
     margin: 0 auto;
+    text-align: center;
     
 }
 
@@ -63,6 +98,8 @@ h1{
     max-width: 1200px;
     overflow: hidden;
     margin: 0 auto;
+    text-align: center;
+    
     
 }
 
@@ -71,6 +108,7 @@ h1{
     max-width: 1200px;
     overflow: hidden;
     margin: 0 auto;
+    text-align: center;
     
 }
 
