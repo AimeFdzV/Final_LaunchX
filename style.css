@@ -27,13 +27,14 @@ body{
 }
 .api{
     position:absolute;
-    width: 80%;
+    width: 90%;
     max-width: 1200px;
-    left: 50%;
+    left: 0 auto;
     top: 50px;
    color: darkorange;
-   text-align: center;
+   text-align:left;
    font-size:large;
+   
    
 
 }
