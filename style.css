@@ -18,18 +18,20 @@ body{
 }
 
 .larga{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
 
 }
 
 .pezb{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
    
 
 }
@@ -38,6 +40,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: medium;
     
    
 
@@ -120,7 +123,7 @@ h1{
 .fin{
     width: 90%;
     max-width: 1200px;
-    overflow: hidden;
+    font-size: small;
     margin: 0 auto;
     text-align: center;
 
