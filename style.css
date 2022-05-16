@@ -17,24 +17,28 @@ body{
 
 }
 
+.larga{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .pezb{
-    width: 90%;
-    max-width: 1200px;
-    overflow: hidden;
-    margin: 0 auto;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
 
 }
 .api{
-    position:absolute;
-    width: 90%;
-    max-width: 1200px;
-    left: 0 auto;
-    top: 50px;
-   color: darkorange;
-   text-align:left;
-   font-size:large;
-   
+    color: darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
    
 
 }
@@ -111,5 +115,14 @@ h1{
     margin: 0 auto;
     text-align: center;
     
+}
+
+.fin{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+
 }
 
